@@ -6,7 +6,7 @@
             <span>&copy; {{ now.Format "2006" }} {{ .Site.Params.footer.trademark }}</span>
             {{ end }}
             {{ if .Site.Params.footer.author }}
-            <span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>
+            <span><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Author.name }}</a></span>
             {{ end }}
             {{ if .Site.Params.footer.copyright }}
             <span>{{ .Site.Params.footer.copyright }} {{ now.Format "2006" }}</span>
